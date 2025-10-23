@@ -51,7 +51,8 @@ Memory Deallocation
 
 ## PROGRAM:
 
-```cuda%%writefile reduction_unroll8.cu
+```cuda
+%%writefile reduction_unroll8.cu
 #include <stdio.h>
 #include <stdlib.h>
 #include <cuda_runtime.h>
